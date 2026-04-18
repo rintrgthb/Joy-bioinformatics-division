@@ -1,0 +1,3 @@
+featureCounts -T 8 -p -t exon -g gene_id \
+  -a Rattus_norvegicus.mRatBN7.2.110.gtf \
+  -o counts.txt bam/*.bam
